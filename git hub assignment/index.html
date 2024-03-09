@@ -18,44 +18,52 @@
         crossorigin="anonymous"></script>
     <!-- hero -->
     <header class="position-sticky top-0 z-3">
-        <div class="hero-section">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">BR architect</a>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true"></a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
+        <nav class="navbar navbar-expand-lg bg-white navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><b>BR</b> Architect</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                options
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Founder</a></li>
+                                <li><a class="dropdown-item" href="index.html">company</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="index.html">Team</a></li>
+                                <li><a class="dropdown-item" href="index.html">Feedback</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <div class="container">
-            <img src="assets/architect.jpg" class="img-fluid" alt="...">
+        <div id="hero-section" class="text-white">
+            <h1 id="br-word" class="d-inline-block me-2 py-2 px-4 ">BR</h1>
+            <h1 class="d-inline-block">Architect</h1>
         </div>
-        <br><br><br>
+        
         <!-- Projects -->
         <div id="projects-section" class="py-5">
 
@@ -64,6 +72,7 @@
                     <div class="col">
                         <h3>Projects</h3>
                         <hr>
+                         <br><br>
                     </div>
                 </div>
 
@@ -131,19 +140,19 @@
 
         </div>
         <!-- About -->
-        <div id="about-section" class="py-5">
+        <div id="about-section" class="py-1 mt-0">
 
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h3>About</h3>
+                        <h3>About</h3><hr>
                         <p class="fs-5">Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel
                             odio
                             officia aliquam enim placeat, optio numquam sint velit sapiente.dolor sit amet consectetur,
                             adipisicing elit. Minus, non quia. Explicabo quae ullam cupiditate ad neque at iure amet
                             consectetur nostrum impedit obcaecati dolor quas ab, labore molestiae nobis esse. Recusandae
                             facere dolorum perspiciatis tempora minima quae accusamus est.</p>
-                        <hr>
+                        
                     </div>
                 </div>
 
@@ -151,7 +160,7 @@
                     <div class="col-12 col-md-6 col-lg-3 position-relative mb-3">
                         <div class="card border-0">
                             <img src="assets/team2.jpg" alt="" class="img-fluid">
-                            <h1>John Doe</h1>
+                            <h3 class="mt-2">John Doe</h3>
                             <h5 class="text-secondary mt-3 mb-2"> CEO & Founder</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ipsam?</p>
                             <button class="btn btn-light btn-lg rounded-0">contact</button>
@@ -160,7 +169,7 @@
                     <div class="col-12 col-md-6 col-lg-3 position-relative mb-3">
                         <div class="card border-0">
                             <img src="assets/team1.jpg" alt="" class="img-fluid">
-                            <h1>Jane doe</h1>
+                            <h3 class="mt-2">Jane doe</h3>
                             <h5 class="text-secondary mt-3 mb-2"> Architect</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ipsam?</p>
                             <button class="btn btn-light btn-lg rounded-0">contact</button>
@@ -169,7 +178,7 @@
                     <div class="col-12 col-md-6 col-lg-3 position-relative mb-3">
                         <div class="card border-0">
                             <img src="assets/team3.jpg" alt="" class="img-fluid">
-                            <h1>Mike ross</h1>
+                            <h3 class="mt-2">Mike ross</h3>
                             <h5 class="text-secondary mt-3 mb-2"> Architect</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ipsam?</p>
                             <button class="btn btn-light btn-lg rounded-0">contact</button>
@@ -178,7 +187,7 @@
                     <div class="col-12 col-md-6 col-lg-3 position-relative">
                         <div class="card border-0">
                             <img src="assets/team4.jpg" alt="" class="img-fluid">
-                            <h1>Dan Star</h1>
+                            <h3 class="mt-2">Dan Star</h3>
                             <h5 class="text-secondary mt-3 mb-2"> Architect</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ipsam?</p>
                             <button class="btn btn-light btn-lg rounded-0">contact</button>
@@ -186,38 +195,102 @@
                     </div>
                 </div>
             </div>
-            <!-- Contacts -->
-            <div id="contacts-section" class="container">
-                <div class="row">
-                    <div class="contacts">
-                        <h2>Contacts</h2>
-                        <br>
-                        <p>Lets get in touch and about your next project.</p>
-                        <br>
-                        <input type="text" placeholder="Your Name" class="inputtypes"><br>
-                        <input type="E-mail" placeholder="Your E-mail" class="inputtypes"><br>
-                        <input type="subject" placeholder="Subject" class="inputtypes"><br>
-                        <input type="text" placeholder="Comments" class="inputtypes"><br>
-                        <div class="contactbutton">
-                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>SEND MESSAGE</button>
-                        </div><br><br><br>
-                        <div class="lastimg">
-                            <img src="assets/map.jpg" alt="map loading">
-                        </div>
+        </div>
+        <!-- Contacts -->
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Contacts</h3>
+                    <hr>
+                    <p>Lets get in touch and about your next project.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Your Name" class="input-type">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="E-mail" placeholder="your E-mail" class="input-type">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="subject" placeholder="Subject" class="input-type">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Comments" class="input-type">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="my-button">SEND MESSAGE</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="contacts-section" class="container">
+            <div class="row">
+                <div class="contacts">
+                    <h2>Contacts</h2>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <p>Lets get in touch and about your next project.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Your Name" class="inputtypes">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="E-mail" placeholder="Your E-mail" class="inputtypes">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="subject" placeholder="Subject" class="inputtypes">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Comments" class="inputtypes">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contactbutton">
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>SEND MESSAGE</button>
                     </div>
                 </div>
             </div>
-
+        </div> -->
+        <div id="map-img" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="assets/map.jpg" alt="map loading" class="img-fluid">
+                </div>
+            </div>
         </div>
 
     </main>
-    <footer>
+    <footer class="bg-white footer-light py-2">
         <div class="container">
-            <div class="row text-center">
-                <p>Designed by <b>Muhammad Shafay.</b> All rights are reserved</p>
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0 text-center text-black"> &copy; 2023,All Rights Reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

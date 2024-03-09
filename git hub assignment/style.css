@@ -1,44 +1,61 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 2px;
 }
-header{
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+header {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-main{
-    flex: 1 0 auto;
+
+main {
+  flex: 1 0 auto;
 }
-#hero-section{
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+#hero-section {
+  background-image: url("../assets/architect.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#about-section img{
-filter: grayscale(0.75);
+
+#hero-section h1 {
+  font-size: 50px;
 }
-.contacts {
-    padding: 20px;
-  }
-  .inputtypes {
-    width: 98%;
-    margin: 20px;
-    padding: 20px;
-  }
-  .contactbutton button {
-    width: 22%;
-    height: 100%;
-    padding: 20px;
-    align-content: center;
-    background-color: black;
-    color: #fff;
-    
-  }
-  .lastimg img{
-    height: auto;
-    width: 100%;
-  
-  }
+
+#br-word {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about-section img {
+  filter: grayscale(0.75);
+}
+
+#contact {
+  padding: 20px;
+}
+
+.input-type {
+  margin-bottom: 7px;
+  width: 100%;
+  height: 50px;
+
+}
+.my-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+#map-img {
+  filter: none;
+  height: auto;
+  width: 100%;
+
+}
